@@ -26,21 +26,55 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonValue;
 
 /**
- * A payment method for toll costs.    * &#x60;ELECTRONIC_TOLL_COLLECTION_SUBSCRIPTION&#x60; - Pay with an electronic toll collection system for which a subscription is required.    * &#x60;ELECTRONIC_TOLL_COLLECTION&#x60; - Pay with some electronic toll collection system for which no prior subscription is required.    * &#x60;CASH&#x60; - Pay with cash at a toll booth.    * &#x60;CREDIT_CARD&#x60; - Pay with credit card at a toll booth.
+ * Gets or Sets LowEmissionZoneApprovals
  */
-public enum PaymentMethod {
+public enum LowEmissionZoneApprovals {
   
-  ELECTRONIC_TOLL_COLLECTION_SUBSCRIPTION("ELECTRONIC_TOLL_COLLECTION_SUBSCRIPTION"),
+  NONE("NONE"),
   
-  ELECTRONIC_TOLL_COLLECTION("ELECTRONIC_TOLL_COLLECTION"),
+  AT_EURO_1("AT_EURO_1"),
   
-  CASH("CASH"),
+  AT_EURO_2("AT_EURO_2"),
   
-  CREDIT_CARD("CREDIT_CARD");
+  AT_EURO_3("AT_EURO_3"),
+  
+  AT_EURO_4("AT_EURO_4"),
+  
+  AT_EURO_5("AT_EURO_5"),
+  
+  AT_EURO_6("AT_EURO_6"),
+  
+  DE_GREEN("DE_GREEN"),
+  
+  DE_YELLOW("DE_YELLOW"),
+  
+  DE_RED("DE_RED"),
+  
+  DK_AUTHORIZED("DK_AUTHORIZED"),
+  
+  ES_CAT_B("ES_CAT_B"),
+  
+  ES_CAT_C("ES_CAT_C"),
+  
+  ES_CAT_ECO("ES_CAT_ECO"),
+  
+  ES_CAT_ZERO("ES_CAT_ZERO"),
+  
+  FR_CRITAIR_0("FR_CRITAIR_0"),
+  
+  FR_CRITAIR_1("FR_CRITAIR_1"),
+  
+  FR_CRITAIR_2("FR_CRITAIR_2"),
+  
+  FR_CRITAIR_3("FR_CRITAIR_3"),
+  
+  FR_CRITAIR_4("FR_CRITAIR_4"),
+  
+  FR_CRITAIR_5("FR_CRITAIR_5");
 
   private String value;
 
-  PaymentMethod(String value) {
+  LowEmissionZoneApprovals(String value) {
     this.value = value;
   }
 
@@ -55,8 +89,8 @@ public enum PaymentMethod {
   }
 
   @JsonCreator
-  public static PaymentMethod fromValue(String value) {
-    for (PaymentMethod b : PaymentMethod.values()) {
+  public static LowEmissionZoneApprovals fromValue(String value) {
+    for (LowEmissionZoneApprovals b : LowEmissionZoneApprovals.values()) {
       if (b.value.equals(value)) {
         return b;
       }
