@@ -62,7 +62,7 @@ import com.ptvgroup.developer.client.routing.ApiClient;
   RouteResponse.JSON_PROPERTY_MONETARY_COSTS,
   RouteResponse.JSON_PROPERTY_WARNINGS
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-29T06:47:39.855443670Z[Etc/UTC]", comments = "Generator version: 7.8.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-10-27T08:41:28.014672549Z[Etc/UTC]", comments = "Generator version: 7.8.0")
 public class RouteResponse {
   public static final String JSON_PROPERTY_DISTANCE = "distance";
   private Integer distance;
@@ -80,7 +80,7 @@ public class RouteResponse {
   private UUID routeId;
 
   public static final String JSON_PROPERTY_LEGS = "legs";
-  private List<Leg> legs = new ArrayList<>();
+  private List<Leg> legs;
 
   public static final String JSON_PROPERTY_TOLL = "toll";
   private Toll toll;
@@ -89,13 +89,13 @@ public class RouteResponse {
   private String polyline;
 
   public static final String JSON_PROPERTY_EVENTS = "events";
-  private List<Event> events = new ArrayList<>();
+  private List<Event> events;
 
   public static final String JSON_PROPERTY_EMISSIONS = "emissions";
   private Emissions emissions;
 
   public static final String JSON_PROPERTY_ALTERNATIVE_ROUTES = "alternativeRoutes";
-  private List<AlternativeRoute> alternativeRoutes = new ArrayList<>();
+  private List<AlternativeRoute> alternativeRoutes;
 
   public static final String JSON_PROPERTY_SCHEDULE_REPORT = "scheduleReport";
   private ScheduleReport scheduleReport;
@@ -110,7 +110,7 @@ public class RouteResponse {
   private MonetaryCosts monetaryCosts;
 
   public static final String JSON_PROPERTY_WARNINGS = "warnings";
-  private List<Warning> warnings = new ArrayList<>();
+  private List<Warning> warnings;
 
   public RouteResponse() { 
   }

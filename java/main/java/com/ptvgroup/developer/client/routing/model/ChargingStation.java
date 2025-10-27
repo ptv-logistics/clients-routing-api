@@ -31,7 +31,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 import com.ptvgroup.developer.client.routing.ApiClient;
 /**
- * Defines the charging capabilities available the a waypoint. 
+ * Defines the charging capabilities available at a waypoint. 
  */
 @JsonPropertyOrder({
   ChargingStation.JSON_PROPERTY_POWER,
@@ -40,7 +40,7 @@ import com.ptvgroup.developer.client.routing.ApiClient;
   ChargingStation.JSON_PROPERTY_K_WH_PRICE,
   ChargingStation.JSON_PROPERTY_USE_SERVICE_TIME_FOR_CHARGING
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-29T06:47:39.855443670Z[Etc/UTC]", comments = "Generator version: 7.8.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-10-27T08:41:28.014672549Z[Etc/UTC]", comments = "Generator version: 7.8.0")
 public class ChargingStation {
   public static final String JSON_PROPERTY_POWER = "power";
   private Integer power;

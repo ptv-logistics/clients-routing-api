@@ -45,7 +45,7 @@ import com.ptvgroup.developer.client.routing.ApiClient;
   ErrorResponse.JSON_PROPERTY_CAUSES,
   ErrorResponse.JSON_PROPERTY_DETAILS
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-29T06:47:39.855443670Z[Etc/UTC]", comments = "Generator version: 7.8.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-10-27T08:41:28.014672549Z[Etc/UTC]", comments = "Generator version: 7.8.0")
 public class ErrorResponse {
   public static final String JSON_PROPERTY_DESCRIPTION = "description";
   private String description;
@@ -60,10 +60,10 @@ public class ErrorResponse {
   private String errorId;
 
   public static final String JSON_PROPERTY_CAUSES = "causes";
-  private List<CausingError> causes = new ArrayList<>();
+  private List<CausingError> causes;
 
   public static final String JSON_PROPERTY_DETAILS = "details";
-  private Map<String, Object> details = new HashMap<>();
+  private Map<String, Object> details;
 
   public ErrorResponse() { 
   }

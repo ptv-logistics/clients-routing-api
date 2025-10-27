@@ -39,7 +39,7 @@ import com.ptvgroup.developer.client.routing.ApiClient;
   EmissionsEN162582012.JSON_PROPERTY_ENERGY_USE_TANK_TO_WHEEL,
   EmissionsEN162582012.JSON_PROPERTY_ENERGY_USE_WELL_TO_WHEEL
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-29T06:47:39.855443670Z[Etc/UTC]", comments = "Generator version: 7.8.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-10-27T08:41:28.014672549Z[Etc/UTC]", comments = "Generator version: 7.8.0")
 public class EmissionsEN162582012 {
   public static final String JSON_PROPERTY_FUEL_CONSUMPTION = "fuelConsumption";
   private Double fuelConsumption;

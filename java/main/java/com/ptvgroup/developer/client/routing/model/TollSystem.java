@@ -39,7 +39,7 @@ import com.ptvgroup.developer.client.routing.ApiClient;
   TollSystem.JSON_PROPERTY_TARIFF_VERSION,
   TollSystem.JSON_PROPERTY_TARIFF_VERSION_VALID_FROM
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-29T06:47:39.855443670Z[Etc/UTC]", comments = "Generator version: 7.8.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-10-27T08:41:28.014672549Z[Etc/UTC]", comments = "Generator version: 7.8.0")
 public class TollSystem {
   public static final String JSON_PROPERTY_NAME = "name";
   private String name;

@@ -48,16 +48,16 @@ import com.ptvgroup.developer.client.routing.ApiClient;
   ViolationEvent.JSON_PROPERTY_RELATED_EVENT_INDEX,
   ViolationEvent.JSON_PROPERTY_POLYLINE
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-29T06:47:39.855443670Z[Etc/UTC]", comments = "Generator version: 7.8.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-10-27T08:41:28.014672549Z[Etc/UTC]", comments = "Generator version: 7.8.0")
 public class ViolationEvent {
   public static final String JSON_PROPERTY_TYPE = "type";
   private ViolationType type;
 
   public static final String JSON_PROPERTY_SCHEDULE_VIOLATION_TYPES = "scheduleViolationTypes";
-  private List<ScheduleViolationType> scheduleViolationTypes = new ArrayList<>();
+  private List<ScheduleViolationType> scheduleViolationTypes;
 
   public static final String JSON_PROPERTY_VIOLATED_VEHICLE_PROPERTIES = "violatedVehicleProperties";
-  private List<ViolatedVehicleProperty> violatedVehicleProperties = new ArrayList<>();
+  private List<ViolatedVehicleProperty> violatedVehicleProperties;
 
   public static final String JSON_PROPERTY_TEMPORARY = "temporary";
   private Boolean temporary;

@@ -42,7 +42,7 @@ import com.ptvgroup.developer.client.routing.ApiClient;
   Currencies.JSON_PROPERTY_BASE_CURRENCY,
   Currencies.JSON_PROPERTY_EXCHANGE_RATES
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-29T06:47:39.855443670Z[Etc/UTC]", comments = "Generator version: 7.8.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-10-27T08:41:28.014672549Z[Etc/UTC]", comments = "Generator version: 7.8.0")
 public class Currencies {
   public static final String JSON_PROPERTY_DATE = "date";
   private LocalDate date;
@@ -54,7 +54,7 @@ public class Currencies {
   private String baseCurrency;
 
   public static final String JSON_PROPERTY_EXCHANGE_RATES = "exchangeRates";
-  private List<ExchangeRate> exchangeRates = new ArrayList<>();
+  private List<ExchangeRate> exchangeRates;
 
   public Currencies() { 
   }

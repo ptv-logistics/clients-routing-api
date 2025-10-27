@@ -42,7 +42,7 @@ import com.ptvgroup.developer.client.routing.ApiClient;
   Emissions.JSON_PROPERTY_ISO140832023,
   Emissions.JSON_PROPERTY_FRENCH_C_O2E_DECREE2017639
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-29T06:47:39.855443670Z[Etc/UTC]", comments = "Generator version: 7.8.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-10-27T08:41:28.014672549Z[Etc/UTC]", comments = "Generator version: 7.8.0")
 public class Emissions {
   public static final String JSON_PROPERTY_EN162582012 = "en16258_2012";
   private EmissionsEN162582012 en162582012;

@@ -40,7 +40,7 @@ import com.ptvgroup.developer.client.routing.ApiClient;
   CausingError.JSON_PROPERTY_PARAMETER,
   CausingError.JSON_PROPERTY_DETAILS
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-29T06:47:39.855443670Z[Etc/UTC]", comments = "Generator version: 7.8.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-10-27T08:41:28.014672549Z[Etc/UTC]", comments = "Generator version: 7.8.0")
 public class CausingError {
   public static final String JSON_PROPERTY_DESCRIPTION = "description";
   private String description;
@@ -52,7 +52,7 @@ public class CausingError {
   private String parameter;
 
   public static final String JSON_PROPERTY_DETAILS = "details";
-  private Map<String, Object> details = new HashMap<>();
+  private Map<String, Object> details;
 
   public CausingError() { 
   }
