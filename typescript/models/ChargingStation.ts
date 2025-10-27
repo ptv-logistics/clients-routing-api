@@ -21,7 +21,7 @@ import {
 } from './CurrentType';
 
 /**
- * Defines the charging capabilities available the a waypoint.
+ * Defines the charging capabilities available at a waypoint.
  * 
  * @export
  * @interface ChargingStation
