@@ -26,7 +26,7 @@ using OpenAPIDateConverter = PTV.Developer.Clients.routing.Client.OpenAPIDateCon
 namespace PTV.Developer.Clients.routing.Model
 {
     /// <summary>
-    /// Defines the charging capabilities available the a waypoint. 
+    /// Defines the charging capabilities available at a waypoint. 
     /// </summary>
     [DataContract(Name = "ChargingStation")]
     public partial class ChargingStation : IValidatableObject
