@@ -47,7 +47,7 @@ import com.ptvgroup.developer.client.routing.ApiClient;
   OnRoadWaypoint.JSON_PROPERTY_VEHICLE_PARAMETERS,
   OnRoadWaypoint.JSON_PROPERTY_EV_PARAMETERS
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-10-27T08:41:28.014672549Z[Etc/UTC]", comments = "Generator version: 7.8.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-11-05T10:38:08.016145136Z[Etc/UTC]", comments = "Generator version: 7.8.0")
 public class OnRoadWaypoint {
   public static final String JSON_PROPERTY_LATITUDE = "latitude";
   private Double latitude;

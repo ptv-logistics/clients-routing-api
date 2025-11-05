@@ -36,7 +36,7 @@ import com.ptvgroup.developer.client.routing.ApiClient;
   ElectricityPrice.JSON_PROPERTY_PRICE,
   ElectricityPrice.JSON_PROPERTY_CURRENCY
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-10-27T08:41:28.014672549Z[Etc/UTC]", comments = "Generator version: 7.8.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-11-05T10:38:08.016145136Z[Etc/UTC]", comments = "Generator version: 7.8.0")
 public class ElectricityPrice {
   public static final String JSON_PROPERTY_PRICE = "price";
   private Double price;
