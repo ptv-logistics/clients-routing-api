@@ -30,75 +30,77 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 import com.ptvgroup.developer.client.routing.ApiClient;
 /**
- * Emissions according to the French CO2E decree from 2017.
+ * SpeedByRoadCategory
  */
 @JsonPropertyOrder({
-  EmissionsFrenchCO2eDecree2017639.JSON_PROPERTY_CO2E_WELL_TO_WHEEL,
-  EmissionsFrenchCO2eDecree2017639.JSON_PROPERTY_CO2E_TANK_TO_WHEEL
+  SpeedByRoadCategory.JSON_PROPERTY_MINIMUM_SPEED,
+  SpeedByRoadCategory.JSON_PROPERTY_MAXIMUM_SPEED
 })
 @javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2026-03-06T07:41:02.302375040Z[Etc/UTC]", comments = "Generator version: 7.8.0")
-public class EmissionsFrenchCO2eDecree2017639 {
-  public static final String JSON_PROPERTY_CO2E_WELL_TO_WHEEL = "co2eWellToWheel";
-  private Double co2eWellToWheel;
+public class SpeedByRoadCategory {
+  public static final String JSON_PROPERTY_MINIMUM_SPEED = "minimumSpeed";
+  private Integer minimumSpeed;
 
-  public static final String JSON_PROPERTY_CO2E_TANK_TO_WHEEL = "co2eTankToWheel";
-  private Double co2eTankToWheel;
+  public static final String JSON_PROPERTY_MAXIMUM_SPEED = "maximumSpeed";
+  private Integer maximumSpeed;
 
-  public EmissionsFrenchCO2eDecree2017639() { 
+  public SpeedByRoadCategory() { 
   }
 
-  public EmissionsFrenchCO2eDecree2017639 co2eWellToWheel(Double co2eWellToWheel) {
-    this.co2eWellToWheel = co2eWellToWheel;
+  public SpeedByRoadCategory minimumSpeed(Integer minimumSpeed) {
+    this.minimumSpeed = minimumSpeed;
     return this;
   }
 
   /**
-   * The amount of emitted CO2e from well to wheel [kg].
-   * minimum: 0
-   * @return co2eWellToWheel
+   * The minimum speed of the vehicle [km/h] for roads of this road category. Must be less or equal to the maximum speed.
+   * minimum: 1
+   * maximum: 255
+   * @return minimumSpeed
    */
   @javax.annotation.Nonnull
-  @JsonProperty(JSON_PROPERTY_CO2E_WELL_TO_WHEEL)
+  @JsonProperty(JSON_PROPERTY_MINIMUM_SPEED)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
-  public Double getCo2eWellToWheel() {
-    return co2eWellToWheel;
+  public Integer getMinimumSpeed() {
+    return minimumSpeed;
   }
 
 
-  @JsonProperty(JSON_PROPERTY_CO2E_WELL_TO_WHEEL)
+  @JsonProperty(JSON_PROPERTY_MINIMUM_SPEED)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
-  public void setCo2eWellToWheel(Double co2eWellToWheel) {
-    this.co2eWellToWheel = co2eWellToWheel;
+  public void setMinimumSpeed(Integer minimumSpeed) {
+    this.minimumSpeed = minimumSpeed;
   }
 
 
-  public EmissionsFrenchCO2eDecree2017639 co2eTankToWheel(Double co2eTankToWheel) {
-    this.co2eTankToWheel = co2eTankToWheel;
+  public SpeedByRoadCategory maximumSpeed(Integer maximumSpeed) {
+    this.maximumSpeed = maximumSpeed;
     return this;
   }
 
   /**
-   * The amount of emitted CO2e from tank to wheel [kg].
-   * minimum: 0
-   * @return co2eTankToWheel
+   * The maximum speed of the vehicle [km/h] for roads of this road category. Must be greater or equal to the minimum speed.
+   * minimum: 1
+   * maximum: 255
+   * @return maximumSpeed
    */
   @javax.annotation.Nonnull
-  @JsonProperty(JSON_PROPERTY_CO2E_TANK_TO_WHEEL)
+  @JsonProperty(JSON_PROPERTY_MAXIMUM_SPEED)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
-  public Double getCo2eTankToWheel() {
-    return co2eTankToWheel;
+  public Integer getMaximumSpeed() {
+    return maximumSpeed;
   }
 
 
-  @JsonProperty(JSON_PROPERTY_CO2E_TANK_TO_WHEEL)
+  @JsonProperty(JSON_PROPERTY_MAXIMUM_SPEED)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
-  public void setCo2eTankToWheel(Double co2eTankToWheel) {
-    this.co2eTankToWheel = co2eTankToWheel;
+  public void setMaximumSpeed(Integer maximumSpeed) {
+    this.maximumSpeed = maximumSpeed;
   }
 
 
   /**
-   * Return true if this Emissions_French_CO2e_Decree_2017_639 object is equal to o.
+   * Return true if this SpeedByRoadCategory object is equal to o.
    */
   @Override
   public boolean equals(Object o) {
@@ -108,22 +110,22 @@ public class EmissionsFrenchCO2eDecree2017639 {
     if (o == null || getClass() != o.getClass()) {
       return false;
     }
-    EmissionsFrenchCO2eDecree2017639 emissionsFrenchCO2eDecree2017639 = (EmissionsFrenchCO2eDecree2017639) o;
-    return Objects.equals(this.co2eWellToWheel, emissionsFrenchCO2eDecree2017639.co2eWellToWheel) &&
-        Objects.equals(this.co2eTankToWheel, emissionsFrenchCO2eDecree2017639.co2eTankToWheel);
+    SpeedByRoadCategory speedByRoadCategory = (SpeedByRoadCategory) o;
+    return Objects.equals(this.minimumSpeed, speedByRoadCategory.minimumSpeed) &&
+        Objects.equals(this.maximumSpeed, speedByRoadCategory.maximumSpeed);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(co2eWellToWheel, co2eTankToWheel);
+    return Objects.hash(minimumSpeed, maximumSpeed);
   }
 
   @Override
   public String toString() {
     StringBuilder sb = new StringBuilder();
-    sb.append("class EmissionsFrenchCO2eDecree2017639 {\n");
-    sb.append("    co2eWellToWheel: ").append(toIndentedString(co2eWellToWheel)).append("\n");
-    sb.append("    co2eTankToWheel: ").append(toIndentedString(co2eTankToWheel)).append("\n");
+    sb.append("class SpeedByRoadCategory {\n");
+    sb.append("    minimumSpeed: ").append(toIndentedString(minimumSpeed)).append("\n");
+    sb.append("    maximumSpeed: ").append(toIndentedString(maximumSpeed)).append("\n");
     sb.append("}");
     return sb.toString();
   }
@@ -171,14 +173,14 @@ public class EmissionsFrenchCO2eDecree2017639 {
 
     StringJoiner joiner = new StringJoiner("&");
 
-    // add `co2eWellToWheel` to the URL query string
-    if (getCo2eWellToWheel() != null) {
-      joiner.add(String.format("%sco2eWellToWheel%s=%s", prefix, suffix, URLEncoder.encode(ApiClient.valueToString(getCo2eWellToWheel()), StandardCharsets.UTF_8).replaceAll("\\+", "%20")));
+    // add `minimumSpeed` to the URL query string
+    if (getMinimumSpeed() != null) {
+      joiner.add(String.format("%sminimumSpeed%s=%s", prefix, suffix, URLEncoder.encode(ApiClient.valueToString(getMinimumSpeed()), StandardCharsets.UTF_8).replaceAll("\\+", "%20")));
     }
 
-    // add `co2eTankToWheel` to the URL query string
-    if (getCo2eTankToWheel() != null) {
-      joiner.add(String.format("%sco2eTankToWheel%s=%s", prefix, suffix, URLEncoder.encode(ApiClient.valueToString(getCo2eTankToWheel()), StandardCharsets.UTF_8).replaceAll("\\+", "%20")));
+    // add `maximumSpeed` to the URL query string
+    if (getMaximumSpeed() != null) {
+      joiner.add(String.format("%smaximumSpeed%s=%s", prefix, suffix, URLEncoder.encode(ApiClient.valueToString(getMaximumSpeed()), StandardCharsets.UTF_8).replaceAll("\\+", "%20")));
     }
 
     return joiner.toString();
