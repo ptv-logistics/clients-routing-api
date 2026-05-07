@@ -30,74 +30,75 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 import com.ptvgroup.developer.client.routing.ApiClient;
 /**
- * Issued when a waypoint is reached by the route, but not for route-manipulation waypoints. When using drivers&#39; working hours and the schedule requires a break or a waiting time before the service, the waypoint event is issued already with the break or the waiting time as the location is already reached. Requires _WAYPOINT_EVENTS_ to be requested.
+ * Provides information on the topography of the route or leg, i.e. the total ascent and descent. Elevation‑based metrics represent approximate values and may differ from real‑world measurements.  For each leg the constraint ascent − descent &#x3D; net elevation difference (last point minus first point) is maintained. Because of this, the sum of ascent or descent values across all legs may slightly exceed the corresponding route total.
  */
 @JsonPropertyOrder({
-  WaypointEvent.JSON_PROPERTY_INDEX,
-  WaypointEvent.JSON_PROPERTY_NAME
+  ElevationReport.JSON_PROPERTY_ASCENT,
+  ElevationReport.JSON_PROPERTY_DESCENT
 })
 @javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2026-05-07T12:19:20.556240271Z[Etc/UTC]", comments = "Generator version: 7.8.0")
-public class WaypointEvent {
-  public static final String JSON_PROPERTY_INDEX = "index";
-  private Integer index;
+public class ElevationReport {
+  public static final String JSON_PROPERTY_ASCENT = "ascent";
+  private Integer ascent;
 
-  public static final String JSON_PROPERTY_NAME = "name";
-  private String name;
+  public static final String JSON_PROPERTY_DESCENT = "descent";
+  private Integer descent;
 
-  public WaypointEvent() { 
+  public ElevationReport() { 
   }
 
-  public WaypointEvent index(Integer index) {
-    this.index = index;
+  public ElevationReport ascent(Integer ascent) {
+    this.ascent = ascent;
     return this;
   }
 
   /**
-   * The index of the waypoint in the request.
+   * Total ascent of the route or leg [m], estimated from sampled elevation data along the route.
    * minimum: 0
-   * @return index
+   * @return ascent
    */
   @javax.annotation.Nonnull
-  @JsonProperty(JSON_PROPERTY_INDEX)
+  @JsonProperty(JSON_PROPERTY_ASCENT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
-  public Integer getIndex() {
-    return index;
+  public Integer getAscent() {
+    return ascent;
   }
 
 
-  @JsonProperty(JSON_PROPERTY_INDEX)
+  @JsonProperty(JSON_PROPERTY_ASCENT)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
-  public void setIndex(Integer index) {
-    this.index = index;
+  public void setAscent(Integer ascent) {
+    this.ascent = ascent;
   }
 
 
-  public WaypointEvent name(String name) {
-    this.name = name;
+  public ElevationReport descent(Integer descent) {
+    this.descent = descent;
     return this;
   }
 
   /**
-   * The name of the waypoint as given in the request. This parameter is only present if it is not empty.
-   * @return name
+   * Total descent of the route or leg [m], estimated from sampled elevation data along the route.
+   * minimum: 0
+   * @return descent
    */
-  @javax.annotation.Nullable
-  @JsonProperty(JSON_PROPERTY_NAME)
-  @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
-  public String getName() {
-    return name;
+  @javax.annotation.Nonnull
+  @JsonProperty(JSON_PROPERTY_DESCENT)
+  @JsonInclude(value = JsonInclude.Include.ALWAYS)
+  public Integer getDescent() {
+    return descent;
   }
 
 
-  @JsonProperty(JSON_PROPERTY_NAME)
-  @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
-  public void setName(String name) {
-    this.name = name;
+  @JsonProperty(JSON_PROPERTY_DESCENT)
+  @JsonInclude(value = JsonInclude.Include.ALWAYS)
+  public void setDescent(Integer descent) {
+    this.descent = descent;
   }
 
 
   /**
-   * Return true if this WaypointEvent object is equal to o.
+   * Return true if this ElevationReport object is equal to o.
    */
   @Override
   public boolean equals(Object o) {
@@ -107,22 +108,22 @@ public class WaypointEvent {
     if (o == null || getClass() != o.getClass()) {
       return false;
     }
-    WaypointEvent waypointEvent = (WaypointEvent) o;
-    return Objects.equals(this.index, waypointEvent.index) &&
-        Objects.equals(this.name, waypointEvent.name);
+    ElevationReport elevationReport = (ElevationReport) o;
+    return Objects.equals(this.ascent, elevationReport.ascent) &&
+        Objects.equals(this.descent, elevationReport.descent);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(index, name);
+    return Objects.hash(ascent, descent);
   }
 
   @Override
   public String toString() {
     StringBuilder sb = new StringBuilder();
-    sb.append("class WaypointEvent {\n");
-    sb.append("    index: ").append(toIndentedString(index)).append("\n");
-    sb.append("    name: ").append(toIndentedString(name)).append("\n");
+    sb.append("class ElevationReport {\n");
+    sb.append("    ascent: ").append(toIndentedString(ascent)).append("\n");
+    sb.append("    descent: ").append(toIndentedString(descent)).append("\n");
     sb.append("}");
     return sb.toString();
   }
@@ -170,14 +171,14 @@ public class WaypointEvent {
 
     StringJoiner joiner = new StringJoiner("&");
 
-    // add `index` to the URL query string
-    if (getIndex() != null) {
-      joiner.add(String.format("%sindex%s=%s", prefix, suffix, URLEncoder.encode(ApiClient.valueToString(getIndex()), StandardCharsets.UTF_8).replaceAll("\\+", "%20")));
+    // add `ascent` to the URL query string
+    if (getAscent() != null) {
+      joiner.add(String.format("%sascent%s=%s", prefix, suffix, URLEncoder.encode(ApiClient.valueToString(getAscent()), StandardCharsets.UTF_8).replaceAll("\\+", "%20")));
     }
 
-    // add `name` to the URL query string
-    if (getName() != null) {
-      joiner.add(String.format("%sname%s=%s", prefix, suffix, URLEncoder.encode(ApiClient.valueToString(getName()), StandardCharsets.UTF_8).replaceAll("\\+", "%20")));
+    // add `descent` to the URL query string
+    if (getDescent() != null) {
+      joiner.add(String.format("%sdescent%s=%s", prefix, suffix, URLEncoder.encode(ApiClient.valueToString(getDescent()), StandardCharsets.UTF_8).replaceAll("\\+", "%20")));
     }
 
     return joiner.toString();
