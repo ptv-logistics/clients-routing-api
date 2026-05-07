@@ -20,6 +20,7 @@ export * from './DriverBody';
 export * from './DrivingDirection';
 export * from './ElectricityPrice';
 export * from './ElectricityType';
+export * from './ElevationReport';
 export * from './EmissionCalculationMethod';
 export * from './EmissionOptions';
 export * from './EmissionStandard';
