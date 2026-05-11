@@ -92,484 +92,610 @@ namespace PTV.Developer.Clients.routing.Model
         ES_ZBE_ALCOBENDAS = 10,
 
         /// <summary>
+        /// Enum ES_ZBE_ALICANTE for value: ES_ZBE_ALICANTE
+        /// </summary>
+        [EnumMember(Value = "ES_ZBE_ALICANTE")]
+        ES_ZBE_ALICANTE = 11,
+
+        /// <summary>
         /// Enum ES_ZBE_ALMERIA for value: ES_ZBE_ALMERIA
         /// </summary>
         [EnumMember(Value = "ES_ZBE_ALMERIA")]
-        ES_ZBE_ALMERIA = 11,
+        ES_ZBE_ALMERIA = 12,
+
+        /// <summary>
+        /// Enum ES_ZBE_BENIDORM for value: ES_ZBE_BENIDORM
+        /// </summary>
+        [EnumMember(Value = "ES_ZBE_BENIDORM")]
+        ES_ZBE_BENIDORM = 13,
 
         /// <summary>
         /// Enum ES_ZBE_BILBAO for value: ES_ZBE_BILBAO
         /// </summary>
         [EnumMember(Value = "ES_ZBE_BILBAO")]
-        ES_ZBE_BILBAO = 12,
+        ES_ZBE_BILBAO = 14,
 
         /// <summary>
         /// Enum ES_ZBE_BOADILLA_DEL_MONTE for value: ES_ZBE_BOADILLA_DEL_MONTE
         /// </summary>
         [EnumMember(Value = "ES_ZBE_BOADILLA_DEL_MONTE")]
-        ES_ZBE_BOADILLA_DEL_MONTE = 13,
+        ES_ZBE_BOADILLA_DEL_MONTE = 15,
+
+        /// <summary>
+        /// Enum ES_ZBE_BURGOS for value: ES_ZBE_BURGOS
+        /// </summary>
+        [EnumMember(Value = "ES_ZBE_BURGOS")]
+        ES_ZBE_BURGOS = 16,
+
+        /// <summary>
+        /// Enum ES_ZBE_CASTELLDEFELS for value: ES_ZBE_CASTELLDEFELS
+        /// </summary>
+        [EnumMember(Value = "ES_ZBE_CASTELLDEFELS")]
+        ES_ZBE_CASTELLDEFELS = 17,
 
         /// <summary>
         /// Enum ES_ZBE_CERDANYOLA_DEL_VALLES for value: ES_ZBE_CERDANYOLA_DEL_VALLES
         /// </summary>
         [EnumMember(Value = "ES_ZBE_CERDANYOLA_DEL_VALLES")]
-        ES_ZBE_CERDANYOLA_DEL_VALLES = 14,
+        ES_ZBE_CERDANYOLA_DEL_VALLES = 18,
 
         /// <summary>
         /// Enum ES_ZBE_CHICLANA_DE_LA_FRONTERA for value: ES_ZBE_CHICLANA_DE_LA_FRONTERA
         /// </summary>
         [EnumMember(Value = "ES_ZBE_CHICLANA_DE_LA_FRONTERA")]
-        ES_ZBE_CHICLANA_DE_LA_FRONTERA = 15,
+        ES_ZBE_CHICLANA_DE_LA_FRONTERA = 19,
 
         /// <summary>
         /// Enum ES_ZBE_CORDOBA for value: ES_ZBE_CORDOBA
         /// </summary>
         [EnumMember(Value = "ES_ZBE_CORDOBA")]
-        ES_ZBE_CORDOBA = 16,
+        ES_ZBE_CORDOBA = 20,
 
         /// <summary>
         /// Enum ES_ZBE_CUENCA for value: ES_ZBE_CUENCA
         /// </summary>
         [EnumMember(Value = "ES_ZBE_CUENCA")]
-        ES_ZBE_CUENCA = 17,
+        ES_ZBE_CUENCA = 21,
 
         /// <summary>
         /// Enum ES_ZBE_EL_PRAT_DE_LLOBREGAT for value: ES_ZBE_EL_PRAT_DE_LLOBREGAT
         /// </summary>
         [EnumMember(Value = "ES_ZBE_EL_PRAT_DE_LLOBREGAT")]
-        ES_ZBE_EL_PRAT_DE_LLOBREGAT = 18,
+        ES_ZBE_EL_PRAT_DE_LLOBREGAT = 22,
+
+        /// <summary>
+        /// Enum ES_ZBE_ELDA for value: ES_ZBE_ELDA
+        /// </summary>
+        [EnumMember(Value = "ES_ZBE_ELDA")]
+        ES_ZBE_ELDA = 23,
 
         /// <summary>
         /// Enum ES_ZBE_ESTEPONA for value: ES_ZBE_ESTEPONA
         /// </summary>
         [EnumMember(Value = "ES_ZBE_ESTEPONA")]
-        ES_ZBE_ESTEPONA = 19,
+        ES_ZBE_ESTEPONA = 24,
 
         /// <summary>
         /// Enum ES_ZBE_FUENLABRADA for value: ES_ZBE_FUENLABRADA
         /// </summary>
         [EnumMember(Value = "ES_ZBE_FUENLABRADA")]
-        ES_ZBE_FUENLABRADA = 20,
+        ES_ZBE_FUENLABRADA = 25,
 
         /// <summary>
         /// Enum ES_ZBE_GETAFE for value: ES_ZBE_GETAFE
         /// </summary>
         [EnumMember(Value = "ES_ZBE_GETAFE")]
-        ES_ZBE_GETAFE = 21,
+        ES_ZBE_GETAFE = 26,
+
+        /// <summary>
+        /// Enum ES_ZBE_GIRONA for value: ES_ZBE_GIRONA
+        /// </summary>
+        [EnumMember(Value = "ES_ZBE_GIRONA")]
+        ES_ZBE_GIRONA = 27,
+
+        /// <summary>
+        /// Enum ES_ZBE_GRANADA for value: ES_ZBE_GRANADA
+        /// </summary>
+        [EnumMember(Value = "ES_ZBE_GRANADA")]
+        ES_ZBE_GRANADA = 28,
 
         /// <summary>
         /// Enum ES_ZBE_GRANOLLERS for value: ES_ZBE_GRANOLLERS
         /// </summary>
         [EnumMember(Value = "ES_ZBE_GRANOLLERS")]
-        ES_ZBE_GRANOLLERS = 22,
+        ES_ZBE_GRANOLLERS = 29,
+
+        /// <summary>
+        /// Enum ES_ZBE_GUADALAJARA for value: ES_ZBE_GUADALAJARA
+        /// </summary>
+        [EnumMember(Value = "ES_ZBE_GUADALAJARA")]
+        ES_ZBE_GUADALAJARA = 30,
+
+        /// <summary>
+        /// Enum ES_ZBE_JEREZ_DE_LA_FRONTERA for value: ES_ZBE_JEREZ_DE_LA_FRONTERA
+        /// </summary>
+        [EnumMember(Value = "ES_ZBE_JEREZ_DE_LA_FRONTERA")]
+        ES_ZBE_JEREZ_DE_LA_FRONTERA = 31,
 
         /// <summary>
         /// Enum ES_ZBE_LLEIDA for value: ES_ZBE_LLEIDA
         /// </summary>
         [EnumMember(Value = "ES_ZBE_LLEIDA")]
-        ES_ZBE_LLEIDA = 23,
+        ES_ZBE_LLEIDA = 32,
 
         /// <summary>
         /// Enum ES_ZBE_MOLLET_DEL_VALLES for value: ES_ZBE_MOLLET_DEL_VALLES
         /// </summary>
         [EnumMember(Value = "ES_ZBE_MOLLET_DEL_VALLES")]
-        ES_ZBE_MOLLET_DEL_VALLES = 24,
+        ES_ZBE_MOLLET_DEL_VALLES = 33,
 
         /// <summary>
         /// Enum ES_ZBE_MOSTOLES for value: ES_ZBE_MOSTOLES
         /// </summary>
         [EnumMember(Value = "ES_ZBE_MOSTOLES")]
-        ES_ZBE_MOSTOLES = 25,
+        ES_ZBE_MOSTOLES = 34,
 
         /// <summary>
         /// Enum ES_ZBE_MOTRIL for value: ES_ZBE_MOTRIL
         /// </summary>
         [EnumMember(Value = "ES_ZBE_MOTRIL")]
-        ES_ZBE_MOTRIL = 26,
+        ES_ZBE_MOTRIL = 35,
 
         /// <summary>
         /// Enum ES_ZBE_PALMA for value: ES_ZBE_PALMA
         /// </summary>
         [EnumMember(Value = "ES_ZBE_PALMA")]
-        ES_ZBE_PALMA = 27,
+        ES_ZBE_PALMA = 36,
+
+        /// <summary>
+        /// Enum ES_ZBE_PAMPLONA for value: ES_ZBE_PAMPLONA
+        /// </summary>
+        [EnumMember(Value = "ES_ZBE_PAMPLONA")]
+        ES_ZBE_PAMPLONA = 37,
 
         /// <summary>
         /// Enum ES_ZBE_PARLA for value: ES_ZBE_PARLA
         /// </summary>
         [EnumMember(Value = "ES_ZBE_PARLA")]
-        ES_ZBE_PARLA = 28,
+        ES_ZBE_PARLA = 38,
+
+        /// <summary>
+        /// Enum ES_ZBE_REUS for value: ES_ZBE_REUS
+        /// </summary>
+        [EnumMember(Value = "ES_ZBE_REUS")]
+        ES_ZBE_REUS = 39,
 
         /// <summary>
         /// Enum ES_ZBE_RIVAS_CEIP_COLEGIO_LUYFE for value: ES_ZBE_RIVAS_CEIP_COLEGIO_LUYFE
         /// </summary>
         [EnumMember(Value = "ES_ZBE_RIVAS_CEIP_COLEGIO_LUYFE")]
-        ES_ZBE_RIVAS_CEIP_COLEGIO_LUYFE = 29,
+        ES_ZBE_RIVAS_CEIP_COLEGIO_LUYFE = 40,
 
         /// <summary>
         /// Enum ES_ZBE_RIVAS_CEIP_DULCE_CHACON for value: ES_ZBE_RIVAS_CEIP_DULCE_CHACON
         /// </summary>
         [EnumMember(Value = "ES_ZBE_RIVAS_CEIP_DULCE_CHACON")]
-        ES_ZBE_RIVAS_CEIP_DULCE_CHACON = 30,
+        ES_ZBE_RIVAS_CEIP_DULCE_CHACON = 41,
 
         /// <summary>
         /// Enum ES_ZBE_RIVAS_CEIP_HANS_CHRISTIAN_ANDERSEN for value: ES_ZBE_RIVAS_CEIP_HANS_CHRISTIAN_ANDERSEN
         /// </summary>
         [EnumMember(Value = "ES_ZBE_RIVAS_CEIP_HANS_CHRISTIAN_ANDERSEN")]
-        ES_ZBE_RIVAS_CEIP_HANS_CHRISTIAN_ANDERSEN = 31,
+        ES_ZBE_RIVAS_CEIP_HANS_CHRISTIAN_ANDERSEN = 42,
 
         /// <summary>
         /// Enum ES_ZBE_RIVAS_CEIP_JARAMA for value: ES_ZBE_RIVAS_CEIP_JARAMA
         /// </summary>
         [EnumMember(Value = "ES_ZBE_RIVAS_CEIP_JARAMA")]
-        ES_ZBE_RIVAS_CEIP_JARAMA = 32,
+        ES_ZBE_RIVAS_CEIP_JARAMA = 43,
 
         /// <summary>
         /// Enum ES_ZBE_RIVAS_CEIP_JOSE_HIERRO for value: ES_ZBE_RIVAS_CEIP_JOSE_HIERRO
         /// </summary>
         [EnumMember(Value = "ES_ZBE_RIVAS_CEIP_JOSE_HIERRO")]
-        ES_ZBE_RIVAS_CEIP_JOSE_HIERRO = 33,
+        ES_ZBE_RIVAS_CEIP_JOSE_HIERRO = 44,
 
         /// <summary>
         /// Enum ES_ZBE_RIVAS_CEIP_JOSE_ITURZAETA for value: ES_ZBE_RIVAS_CEIP_JOSE_ITURZAETA
         /// </summary>
         [EnumMember(Value = "ES_ZBE_RIVAS_CEIP_JOSE_ITURZAETA")]
-        ES_ZBE_RIVAS_CEIP_JOSE_ITURZAETA = 34,
+        ES_ZBE_RIVAS_CEIP_JOSE_ITURZAETA = 45,
 
         /// <summary>
         /// Enum ES_ZBE_RIVAS_CEIP_LAS_CIGUENAS for value: ES_ZBE_RIVAS_CEIP_LAS_CIGUENAS
         /// </summary>
         [EnumMember(Value = "ES_ZBE_RIVAS_CEIP_LAS_CIGUENAS")]
-        ES_ZBE_RIVAS_CEIP_LAS_CIGUENAS = 35,
+        ES_ZBE_RIVAS_CEIP_LAS_CIGUENAS = 46,
 
         /// <summary>
         /// Enum ES_ZBE_RIVAS_CEIP_VICTORIA_KENT for value: ES_ZBE_RIVAS_CEIP_VICTORIA_KENT
         /// </summary>
         [EnumMember(Value = "ES_ZBE_RIVAS_CEIP_VICTORIA_KENT")]
-        ES_ZBE_RIVAS_CEIP_VICTORIA_KENT = 36,
+        ES_ZBE_RIVAS_CEIP_VICTORIA_KENT = 47,
 
         /// <summary>
         /// Enum ES_ZBE_RIVAS_COLEGIO_SANTA_MONICA for value: ES_ZBE_RIVAS_COLEGIO_SANTA_MONICA
         /// </summary>
         [EnumMember(Value = "ES_ZBE_RIVAS_COLEGIO_SANTA_MONICA")]
-        ES_ZBE_RIVAS_COLEGIO_SANTA_MONICA = 37,
+        ES_ZBE_RIVAS_COLEGIO_SANTA_MONICA = 48,
+
+        /// <summary>
+        /// Enum ES_ZBE_RUBI for value: ES_ZBE_RUBI
+        /// </summary>
+        [EnumMember(Value = "ES_ZBE_RUBI")]
+        ES_ZBE_RUBI = 49,
 
         /// <summary>
         /// Enum ES_ZBE_SABADELL for value: ES_ZBE_SABADELL
         /// </summary>
         [EnumMember(Value = "ES_ZBE_SABADELL")]
-        ES_ZBE_SABADELL = 38,
+        ES_ZBE_SABADELL = 50,
 
         /// <summary>
         /// Enum ES_ZBE_SAN_SEBASTIAN for value: ES_ZBE_SAN_SEBASTIAN
         /// </summary>
         [EnumMember(Value = "ES_ZBE_SAN_SEBASTIAN")]
-        ES_ZBE_SAN_SEBASTIAN = 39,
+        ES_ZBE_SAN_SEBASTIAN = 51,
 
         /// <summary>
         /// Enum ES_ZBE_SEGOVIA for value: ES_ZBE_SEGOVIA
         /// </summary>
         [EnumMember(Value = "ES_ZBE_SEGOVIA")]
-        ES_ZBE_SEGOVIA = 40,
+        ES_ZBE_SEGOVIA = 52,
+
+        /// <summary>
+        /// Enum ES_ZBE_TARRAGONA for value: ES_ZBE_TARRAGONA
+        /// </summary>
+        [EnumMember(Value = "ES_ZBE_TARRAGONA")]
+        ES_ZBE_TARRAGONA = 53,
 
         /// <summary>
         /// Enum ES_ZBE_TERRASSA for value: ES_ZBE_TERRASSA
         /// </summary>
         [EnumMember(Value = "ES_ZBE_TERRASSA")]
-        ES_ZBE_TERRASSA = 41,
+        ES_ZBE_TERRASSA = 54,
 
         /// <summary>
         /// Enum ES_ZBE_TORREJON_DE_ARDOZ for value: ES_ZBE_TORREJON_DE_ARDOZ
         /// </summary>
         [EnumMember(Value = "ES_ZBE_TORREJON_DE_ARDOZ")]
-        ES_ZBE_TORREJON_DE_ARDOZ = 42,
+        ES_ZBE_TORREJON_DE_ARDOZ = 55,
 
         /// <summary>
         /// Enum ES_ZBE_TORRELAVEGA for value: ES_ZBE_TORRELAVEGA
         /// </summary>
         [EnumMember(Value = "ES_ZBE_TORRELAVEGA")]
-        ES_ZBE_TORRELAVEGA = 43,
+        ES_ZBE_TORRELAVEGA = 56,
 
         /// <summary>
         /// Enum ES_ZBE_TORREMOLINOS for value: ES_ZBE_TORREMOLINOS
         /// </summary>
         [EnumMember(Value = "ES_ZBE_TORREMOLINOS")]
-        ES_ZBE_TORREMOLINOS = 44,
+        ES_ZBE_TORREMOLINOS = 57,
 
         /// <summary>
         /// Enum ES_ZBE_VALLADOLID for value: ES_ZBE_VALLADOLID
         /// </summary>
         [EnumMember(Value = "ES_ZBE_VALLADOLID")]
-        ES_ZBE_VALLADOLID = 45,
+        ES_ZBE_VALLADOLID = 58,
+
+        /// <summary>
+        /// Enum ES_ZBE_VITORIA_GASTEIZ for value: ES_ZBE_VITORIA_GASTEIZ
+        /// </summary>
+        [EnumMember(Value = "ES_ZBE_VITORIA_GASTEIZ")]
+        ES_ZBE_VITORIA_GASTEIZ = 59,
 
         /// <summary>
         /// Enum FR_ANGERS_ZFE for value: FR_ANGERS_ZFE
         /// </summary>
         [EnumMember(Value = "FR_ANGERS_ZFE")]
-        FR_ANGERS_ZFE = 46,
+        FR_ANGERS_ZFE = 60,
 
         /// <summary>
         /// Enum FR_STRASBOURG_ZFE for value: FR_STRASBOURG_ZFE
         /// </summary>
         [EnumMember(Value = "FR_STRASBOURG_ZFE")]
-        FR_STRASBOURG_ZFE = 47,
+        FR_STRASBOURG_ZFE = 61,
 
         /// <summary>
         /// Enum GB_ABERDEEN_LEZ for value: GB_ABERDEEN_LEZ
         /// </summary>
         [EnumMember(Value = "GB_ABERDEEN_LEZ")]
-        GB_ABERDEEN_LEZ = 48,
+        GB_ABERDEEN_LEZ = 62,
 
         /// <summary>
         /// Enum GB_BATH_CAZ for value: GB_BATH_CAZ
         /// </summary>
         [EnumMember(Value = "GB_BATH_CAZ")]
-        GB_BATH_CAZ = 49,
+        GB_BATH_CAZ = 63,
 
         /// <summary>
         /// Enum GB_BIRMINGHAM_CAZ for value: GB_BIRMINGHAM_CAZ
         /// </summary>
         [EnumMember(Value = "GB_BIRMINGHAM_CAZ")]
-        GB_BIRMINGHAM_CAZ = 50,
+        GB_BIRMINGHAM_CAZ = 64,
 
         /// <summary>
         /// Enum GB_BRADFORD_CAZ for value: GB_BRADFORD_CAZ
         /// </summary>
         [EnumMember(Value = "GB_BRADFORD_CAZ")]
-        GB_BRADFORD_CAZ = 51,
+        GB_BRADFORD_CAZ = 65,
 
         /// <summary>
         /// Enum GB_BRISTOL_CAZ for value: GB_BRISTOL_CAZ
         /// </summary>
         [EnumMember(Value = "GB_BRISTOL_CAZ")]
-        GB_BRISTOL_CAZ = 52,
+        GB_BRISTOL_CAZ = 66,
 
         /// <summary>
         /// Enum GB_DUNDEE_LEZ for value: GB_DUNDEE_LEZ
         /// </summary>
         [EnumMember(Value = "GB_DUNDEE_LEZ")]
-        GB_DUNDEE_LEZ = 53,
+        GB_DUNDEE_LEZ = 67,
 
         /// <summary>
         /// Enum GB_EDINBURGH_LEZ for value: GB_EDINBURGH_LEZ
         /// </summary>
         [EnumMember(Value = "GB_EDINBURGH_LEZ")]
-        GB_EDINBURGH_LEZ = 54,
+        GB_EDINBURGH_LEZ = 68,
 
         /// <summary>
         /// Enum GB_GLASGOW_LEZ for value: GB_GLASGOW_LEZ
         /// </summary>
         [EnumMember(Value = "GB_GLASGOW_LEZ")]
-        GB_GLASGOW_LEZ = 55,
+        GB_GLASGOW_LEZ = 69,
 
         /// <summary>
         /// Enum GB_LONDON_ULTRA_LOW_EMISSION_ZONE for value: GB_LONDON_ULTRA_LOW_EMISSION_ZONE
         /// </summary>
         [EnumMember(Value = "GB_LONDON_ULTRA_LOW_EMISSION_ZONE")]
-        GB_LONDON_ULTRA_LOW_EMISSION_ZONE = 56,
+        GB_LONDON_ULTRA_LOW_EMISSION_ZONE = 70,
 
         /// <summary>
         /// Enum GB_NEWCASTLE_CAZ for value: GB_NEWCASTLE_CAZ
         /// </summary>
         [EnumMember(Value = "GB_NEWCASTLE_CAZ")]
-        GB_NEWCASTLE_CAZ = 57,
+        GB_NEWCASTLE_CAZ = 71,
 
         /// <summary>
         /// Enum GB_PORTSMOUTH_CAZ for value: GB_PORTSMOUTH_CAZ
         /// </summary>
         [EnumMember(Value = "GB_PORTSMOUTH_CAZ")]
-        GB_PORTSMOUTH_CAZ = 58,
+        GB_PORTSMOUTH_CAZ = 72,
 
         /// <summary>
         /// Enum GB_SHEFFIELD_CAZ for value: GB_SHEFFIELD_CAZ
         /// </summary>
         [EnumMember(Value = "GB_SHEFFIELD_CAZ")]
-        GB_SHEFFIELD_CAZ = 59,
+        GB_SHEFFIELD_CAZ = 73,
 
         /// <summary>
         /// Enum IT_MILANO_AREA_C for value: IT_MILANO_AREA_C
         /// </summary>
         [EnumMember(Value = "IT_MILANO_AREA_C")]
-        IT_MILANO_AREA_C = 60,
+        IT_MILANO_AREA_C = 74,
 
         /// <summary>
         /// Enum IT_PALERMO_ZTL for value: IT_PALERMO_ZTL
         /// </summary>
         [EnumMember(Value = "IT_PALERMO_ZTL")]
-        IT_PALERMO_ZTL = 61,
+        IT_PALERMO_ZTL = 75,
+
+        /// <summary>
+        /// Enum NL_AMERSFOORT_ZERO_EMISSIEZONE for value: NL_AMERSFOORT_ZERO_EMISSIEZONE
+        /// </summary>
+        [EnumMember(Value = "NL_AMERSFOORT_ZERO_EMISSIEZONE")]
+        NL_AMERSFOORT_ZERO_EMISSIEZONE = 76,
 
         /// <summary>
         /// Enum NL_AMSTERDAM_MILIEUZONE for value: NL_AMSTERDAM_MILIEUZONE
         /// </summary>
         [EnumMember(Value = "NL_AMSTERDAM_MILIEUZONE")]
-        NL_AMSTERDAM_MILIEUZONE = 62,
+        NL_AMSTERDAM_MILIEUZONE = 77,
 
         /// <summary>
         /// Enum NL_AMSTERDAM_ZERO_EMISSIEZONE for value: NL_AMSTERDAM_ZERO_EMISSIEZONE
         /// </summary>
         [EnumMember(Value = "NL_AMSTERDAM_ZERO_EMISSIEZONE")]
-        NL_AMSTERDAM_ZERO_EMISSIEZONE = 63,
+        NL_AMSTERDAM_ZERO_EMISSIEZONE = 78,
 
         /// <summary>
         /// Enum NL_ARNHEM_MILIEUZONE for value: NL_ARNHEM_MILIEUZONE
         /// </summary>
         [EnumMember(Value = "NL_ARNHEM_MILIEUZONE")]
-        NL_ARNHEM_MILIEUZONE = 64,
+        NL_ARNHEM_MILIEUZONE = 79,
 
         /// <summary>
         /// Enum NL_ASSEN_ZERO_EMISSIEZONE for value: NL_ASSEN_ZERO_EMISSIEZONE
         /// </summary>
         [EnumMember(Value = "NL_ASSEN_ZERO_EMISSIEZONE")]
-        NL_ASSEN_ZERO_EMISSIEZONE = 65,
+        NL_ASSEN_ZERO_EMISSIEZONE = 80,
 
         /// <summary>
         /// Enum NL_BREDA_MILIEUZONE for value: NL_BREDA_MILIEUZONE
         /// </summary>
         [EnumMember(Value = "NL_BREDA_MILIEUZONE")]
-        NL_BREDA_MILIEUZONE = 66,
+        NL_BREDA_MILIEUZONE = 81,
 
         /// <summary>
         /// Enum NL_DELFT_HAAG_ZERO_EMISSIEZONE for value: NL_DELFT_HAAG_ZERO_EMISSIEZONE
         /// </summary>
         [EnumMember(Value = "NL_DELFT_HAAG_ZERO_EMISSIEZONE")]
-        NL_DELFT_HAAG_ZERO_EMISSIEZONE = 67,
+        NL_DELFT_HAAG_ZERO_EMISSIEZONE = 82,
 
         /// <summary>
         /// Enum NL_DELFT_MILIEUZONE for value: NL_DELFT_MILIEUZONE
         /// </summary>
         [EnumMember(Value = "NL_DELFT_MILIEUZONE")]
-        NL_DELFT_MILIEUZONE = 68,
+        NL_DELFT_MILIEUZONE = 83,
 
         /// <summary>
         /// Enum NL_DEN_HAAG_MILIEUZONE for value: NL_DEN_HAAG_MILIEUZONE
         /// </summary>
         [EnumMember(Value = "NL_DEN_HAAG_MILIEUZONE")]
-        NL_DEN_HAAG_MILIEUZONE = 69,
+        NL_DEN_HAAG_MILIEUZONE = 84,
 
         /// <summary>
         /// Enum NL_DEN_HAAG_ZERO_EMISSIEZONE for value: NL_DEN_HAAG_ZERO_EMISSIEZONE
         /// </summary>
         [EnumMember(Value = "NL_DEN_HAAG_ZERO_EMISSIEZONE")]
-        NL_DEN_HAAG_ZERO_EMISSIEZONE = 70,
+        NL_DEN_HAAG_ZERO_EMISSIEZONE = 85,
 
         /// <summary>
         /// Enum NL_EINDHOVEN_MILIEUZONE for value: NL_EINDHOVEN_MILIEUZONE
         /// </summary>
         [EnumMember(Value = "NL_EINDHOVEN_MILIEUZONE")]
-        NL_EINDHOVEN_MILIEUZONE = 71,
+        NL_EINDHOVEN_MILIEUZONE = 86,
 
         /// <summary>
         /// Enum NL_EINDHOVEN_ZERO_EMISSIEZONE for value: NL_EINDHOVEN_ZERO_EMISSIEZONE
         /// </summary>
         [EnumMember(Value = "NL_EINDHOVEN_ZERO_EMISSIEZONE")]
-        NL_EINDHOVEN_ZERO_EMISSIEZONE = 72,
+        NL_EINDHOVEN_ZERO_EMISSIEZONE = 87,
+
+        /// <summary>
+        /// Enum NL_ENSCHEDE_ZERO_EMISSIEZONE for value: NL_ENSCHEDE_ZERO_EMISSIEZONE
+        /// </summary>
+        [EnumMember(Value = "NL_ENSCHEDE_ZERO_EMISSIEZONE")]
+        NL_ENSCHEDE_ZERO_EMISSIEZONE = 88,
 
         /// <summary>
         /// Enum NL_GOUDA_ZERO_EMISSIEZONE for value: NL_GOUDA_ZERO_EMISSIEZONE
         /// </summary>
         [EnumMember(Value = "NL_GOUDA_ZERO_EMISSIEZONE")]
-        NL_GOUDA_ZERO_EMISSIEZONE = 73,
+        NL_GOUDA_ZERO_EMISSIEZONE = 89,
+
+        /// <summary>
+        /// Enum NL_GRONINGEN_ZERO_EMISSIEZONE for value: NL_GRONINGEN_ZERO_EMISSIEZONE
+        /// </summary>
+        [EnumMember(Value = "NL_GRONINGEN_ZERO_EMISSIEZONE")]
+        NL_GRONINGEN_ZERO_EMISSIEZONE = 90,
 
         /// <summary>
         /// Enum NL_HAARLEM_MILIEUZONE for value: NL_HAARLEM_MILIEUZONE
         /// </summary>
         [EnumMember(Value = "NL_HAARLEM_MILIEUZONE")]
-        NL_HAARLEM_MILIEUZONE = 74,
+        NL_HAARLEM_MILIEUZONE = 91,
 
         /// <summary>
         /// Enum NL_LEIDEN_MILIEUZONE for value: NL_LEIDEN_MILIEUZONE
         /// </summary>
         [EnumMember(Value = "NL_LEIDEN_MILIEUZONE")]
-        NL_LEIDEN_MILIEUZONE = 75,
+        NL_LEIDEN_MILIEUZONE = 92,
 
         /// <summary>
         /// Enum NL_LEIDEN_ZERO_EMISSIEZONE for value: NL_LEIDEN_ZERO_EMISSIEZONE
         /// </summary>
         [EnumMember(Value = "NL_LEIDEN_ZERO_EMISSIEZONE")]
-        NL_LEIDEN_ZERO_EMISSIEZONE = 76,
+        NL_LEIDEN_ZERO_EMISSIEZONE = 93,
 
         /// <summary>
         /// Enum NL_MAASTRICHT_MILIEUZONE for value: NL_MAASTRICHT_MILIEUZONE
         /// </summary>
         [EnumMember(Value = "NL_MAASTRICHT_MILIEUZONE")]
-        NL_MAASTRICHT_MILIEUZONE = 77,
+        NL_MAASTRICHT_MILIEUZONE = 94,
 
         /// <summary>
         /// Enum NL_MAASTRICHT_ZERO_EMISSIEZONE for value: NL_MAASTRICHT_ZERO_EMISSIEZONE
         /// </summary>
         [EnumMember(Value = "NL_MAASTRICHT_ZERO_EMISSIEZONE")]
-        NL_MAASTRICHT_ZERO_EMISSIEZONE = 78,
+        NL_MAASTRICHT_ZERO_EMISSIEZONE = 95,
 
         /// <summary>
         /// Enum NL_MAASVLAKTE_ROTTERDAM_MILIEUZONE for value: NL_MAASVLAKTE_ROTTERDAM_MILIEUZONE
         /// </summary>
         [EnumMember(Value = "NL_MAASVLAKTE_ROTTERDAM_MILIEUZONE")]
-        NL_MAASVLAKTE_ROTTERDAM_MILIEUZONE = 79,
+        NL_MAASVLAKTE_ROTTERDAM_MILIEUZONE = 96,
 
         /// <summary>
         /// Enum NL_NIJMEGEN_ZERO_EMISSIEZONE for value: NL_NIJMEGEN_ZERO_EMISSIEZONE
         /// </summary>
         [EnumMember(Value = "NL_NIJMEGEN_ZERO_EMISSIEZONE")]
-        NL_NIJMEGEN_ZERO_EMISSIEZONE = 80,
+        NL_NIJMEGEN_ZERO_EMISSIEZONE = 97,
 
         /// <summary>
         /// Enum NL_RIJSWIJK_MILIEUZONE for value: NL_RIJSWIJK_MILIEUZONE
         /// </summary>
         [EnumMember(Value = "NL_RIJSWIJK_MILIEUZONE")]
-        NL_RIJSWIJK_MILIEUZONE = 81,
+        NL_RIJSWIJK_MILIEUZONE = 98,
 
         /// <summary>
         /// Enum NL_ROTTERDAM_MILIEUZONE for value: NL_ROTTERDAM_MILIEUZONE
         /// </summary>
         [EnumMember(Value = "NL_ROTTERDAM_MILIEUZONE")]
-        NL_ROTTERDAM_MILIEUZONE = 82,
+        NL_ROTTERDAM_MILIEUZONE = 99,
 
         /// <summary>
         /// Enum NL_ROTTERDAM_ZERO_EMISSIEZONE for value: NL_ROTTERDAM_ZERO_EMISSIEZONE
         /// </summary>
         [EnumMember(Value = "NL_ROTTERDAM_ZERO_EMISSIEZONE")]
-        NL_ROTTERDAM_ZERO_EMISSIEZONE = 83,
+        NL_ROTTERDAM_ZERO_EMISSIEZONE = 100,
 
         /// <summary>
         /// Enum NL_S_GRAVENDIJKWAL_MILIEUZONE for value: NL_S_GRAVENDIJKWAL_MILIEUZONE
         /// </summary>
         [EnumMember(Value = "NL_S_GRAVENDIJKWAL_MILIEUZONE")]
-        NL_S_GRAVENDIJKWAL_MILIEUZONE = 84,
+        NL_S_GRAVENDIJKWAL_MILIEUZONE = 101,
 
         /// <summary>
         /// Enum NL_S_HERTOGENBOSCH_MILIEUZONE for value: NL_S_HERTOGENBOSCH_MILIEUZONE
         /// </summary>
         [EnumMember(Value = "NL_S_HERTOGENBOSCH_MILIEUZONE")]
-        NL_S_HERTOGENBOSCH_MILIEUZONE = 85,
+        NL_S_HERTOGENBOSCH_MILIEUZONE = 102,
+
+        /// <summary>
+        /// Enum NL_S_HERTOGENBOSCH_ZERO_EMISSIEZONE for value: NL_S_HERTOGENBOSCH_ZERO_EMISSIEZONE
+        /// </summary>
+        [EnumMember(Value = "NL_S_HERTOGENBOSCH_ZERO_EMISSIEZONE")]
+        NL_S_HERTOGENBOSCH_ZERO_EMISSIEZONE = 103,
+
+        /// <summary>
+        /// Enum NL_SCHEVENINGSE_HAVEN_MILIEUZONE for value: NL_SCHEVENINGSE_HAVEN_MILIEUZONE
+        /// </summary>
+        [EnumMember(Value = "NL_SCHEVENINGSE_HAVEN_MILIEUZONE")]
+        NL_SCHEVENINGSE_HAVEN_MILIEUZONE = 104,
+
+        /// <summary>
+        /// Enum NL_SCHIPHOL_ZERO_EMISSIEZONE for value: NL_SCHIPHOL_ZERO_EMISSIEZONE
+        /// </summary>
+        [EnumMember(Value = "NL_SCHIPHOL_ZERO_EMISSIEZONE")]
+        NL_SCHIPHOL_ZERO_EMISSIEZONE = 105,
 
         /// <summary>
         /// Enum NL_TILBURG_MILIEUZONE for value: NL_TILBURG_MILIEUZONE
         /// </summary>
         [EnumMember(Value = "NL_TILBURG_MILIEUZONE")]
-        NL_TILBURG_MILIEUZONE = 86,
+        NL_TILBURG_MILIEUZONE = 106,
 
         /// <summary>
         /// Enum NL_TILBURG_ZERO_EMISSIEZONE for value: NL_TILBURG_ZERO_EMISSIEZONE
         /// </summary>
         [EnumMember(Value = "NL_TILBURG_ZERO_EMISSIEZONE")]
-        NL_TILBURG_ZERO_EMISSIEZONE = 87,
+        NL_TILBURG_ZERO_EMISSIEZONE = 107,
 
         /// <summary>
         /// Enum NL_UTRECHT_MILIEUZONE for value: NL_UTRECHT_MILIEUZONE
         /// </summary>
         [EnumMember(Value = "NL_UTRECHT_MILIEUZONE")]
-        NL_UTRECHT_MILIEUZONE = 88,
+        NL_UTRECHT_MILIEUZONE = 108,
 
         /// <summary>
         /// Enum NL_UTRECHT_ZERO_EMISSIEZONE for value: NL_UTRECHT_ZERO_EMISSIEZONE
         /// </summary>
         [EnumMember(Value = "NL_UTRECHT_ZERO_EMISSIEZONE")]
-        NL_UTRECHT_ZERO_EMISSIEZONE = 89,
+        NL_UTRECHT_ZERO_EMISSIEZONE = 109,
 
         /// <summary>
         /// Enum NL_ZWOLLE_ZERO_EMISSIEZONE for value: NL_ZWOLLE_ZERO_EMISSIEZONE
         /// </summary>
         [EnumMember(Value = "NL_ZWOLLE_ZERO_EMISSIEZONE")]
-        NL_ZWOLLE_ZERO_EMISSIEZONE = 90
+        NL_ZWOLLE_ZERO_EMISSIEZONE = 110,
+
+        /// <summary>
+        /// Enum PT_EIXO_AV_LIBERDADE_BAIXA_ZER for value: PT_EIXO_AV_LIBERDADE_BAIXA_ZER
+        /// </summary>
+        [EnumMember(Value = "PT_EIXO_AV_LIBERDADE_BAIXA_ZER")]
+        PT_EIXO_AV_LIBERDADE_BAIXA_ZER = 111
     }
 
 }
