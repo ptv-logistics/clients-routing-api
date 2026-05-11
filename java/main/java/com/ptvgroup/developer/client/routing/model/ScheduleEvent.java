@@ -39,7 +39,7 @@ import com.ptvgroup.developer.client.routing.ApiClient;
   ScheduleEvent.JSON_PROPERTY_DURATION,
   ScheduleEvent.JSON_PROPERTY_SCHEDULE_TYPES
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2026-05-07T12:19:20.556240271Z[Etc/UTC]", comments = "Generator version: 7.8.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2026-05-11T12:01:25.769626908Z[Etc/UTC]", comments = "Generator version: 7.8.0")
 public class ScheduleEvent {
   public static final String JSON_PROPERTY_DURATION = "duration";
   private Integer duration;

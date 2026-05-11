@@ -39,7 +39,7 @@ import com.ptvgroup.developer.client.routing.ApiClient;
   Warning.JSON_PROPERTY_WARNING_CODE,
   Warning.JSON_PROPERTY_DETAILS
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2026-05-07T12:19:20.556240271Z[Etc/UTC]", comments = "Generator version: 7.8.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2026-05-11T12:01:25.769626908Z[Etc/UTC]", comments = "Generator version: 7.8.0")
 public class Warning {
   public static final String JSON_PROPERTY_DESCRIPTION = "description";
   private String description;

@@ -37,7 +37,7 @@ import com.ptvgroup.developer.client.routing.ApiClient;
   EvOptions.JSON_PROPERTY_MINIMUM_STATE_OF_CHARGE,
   EvOptions.JSON_PROPERTY_ENERGY_EFFICIENT_ROUTE
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2026-05-07T12:19:20.556240271Z[Etc/UTC]", comments = "Generator version: 7.8.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2026-05-11T12:01:25.769626908Z[Etc/UTC]", comments = "Generator version: 7.8.0")
 public class EvOptions {
   public static final String JSON_PROPERTY_INITIAL_STATE_OF_CHARGE = "initialStateOfCharge";
   private Double initialStateOfCharge = 100d;

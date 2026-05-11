@@ -37,7 +37,7 @@ import com.ptvgroup.developer.client.routing.ApiClient;
   CombinedTransport.JSON_PROPERTY_START,
   CombinedTransport.JSON_PROPERTY_DESTINATION
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2026-05-07T12:19:20.556240271Z[Etc/UTC]", comments = "Generator version: 7.8.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2026-05-11T12:01:25.769626908Z[Etc/UTC]", comments = "Generator version: 7.8.0")
 public class CombinedTransport {
   public static final String JSON_PROPERTY_START = "start";
   private CombinedTransportLocation start;
