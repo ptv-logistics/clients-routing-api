@@ -61,6 +61,7 @@ export * from './OnRoadWaypoint';
 export * from './Options';
 export * from './ParticleReductionClass';
 export * from './PaymentMethod';
+export * from './PenaltyOptions';
 export * from './PolylineFormat';
 export * from './PolylineMapType';
 export * from './PositionAtWaypoint';
