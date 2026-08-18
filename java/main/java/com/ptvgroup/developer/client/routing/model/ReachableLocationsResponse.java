@@ -40,7 +40,7 @@ import com.ptvgroup.developer.client.routing.ApiClient;
   ReachableLocationsResponse.JSON_PROPERTY_REACHABLE_LOCATIONS,
   ReachableLocationsResponse.JSON_PROPERTY_ERROR
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2026-08-11T11:04:17.262362829Z[Etc/UTC]", comments = "Generator version: 7.8.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2026-08-18T08:03:44.110542425Z[Etc/UTC]", comments = "Generator version: 7.8.0")
 public class ReachableLocationsResponse {
   public static final String JSON_PROPERTY_STATUS = "status";
   private CalculationStatus status;

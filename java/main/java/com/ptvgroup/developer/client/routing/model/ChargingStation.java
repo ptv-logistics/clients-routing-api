@@ -40,7 +40,7 @@ import com.ptvgroup.developer.client.routing.ApiClient;
   ChargingStation.JSON_PROPERTY_K_WH_PRICE,
   ChargingStation.JSON_PROPERTY_USE_SERVICE_TIME_FOR_CHARGING
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2026-08-11T11:04:17.262362829Z[Etc/UTC]", comments = "Generator version: 7.8.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2026-08-18T08:03:44.110542425Z[Etc/UTC]", comments = "Generator version: 7.8.0")
 public class ChargingStation {
   public static final String JSON_PROPERTY_POWER = "power";
   private Integer power;

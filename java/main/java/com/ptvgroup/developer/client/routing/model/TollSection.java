@@ -46,7 +46,7 @@ import com.ptvgroup.developer.client.routing.ApiClient;
   TollSection.JSON_PROPERTY_CALCULATED_DISTANCE,
   TollSection.JSON_PROPERTY_APPROXIMATED
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2026-08-11T11:04:17.262362829Z[Etc/UTC]", comments = "Generator version: 7.8.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2026-08-18T08:03:44.110542425Z[Etc/UTC]", comments = "Generator version: 7.8.0")
 public class TollSection {
   public static final String JSON_PROPERTY_COSTS = "costs";
   private List<TollSectionCost> costs;

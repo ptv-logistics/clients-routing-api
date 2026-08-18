@@ -45,7 +45,7 @@ import com.ptvgroup.developer.client.routing.ApiClient;
   Leg.JSON_PROPERTY_EV_REPORT,
   Leg.JSON_PROPERTY_ELEVATION_REPORT
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2026-08-11T11:04:17.262362829Z[Etc/UTC]", comments = "Generator version: 7.8.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2026-08-18T08:03:44.110542425Z[Etc/UTC]", comments = "Generator version: 7.8.0")
 public class Leg {
   public static final String JSON_PROPERTY_DISTANCE = "distance";
   private Integer distance;

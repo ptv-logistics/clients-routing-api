@@ -44,7 +44,7 @@ import com.ptvgroup.developer.client.routing.ApiClient;
   Toll.JSON_PROPERTY_SYSTEMS,
   Toll.JSON_PROPERTY_CURRENCIES
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2026-08-11T11:04:17.262362829Z[Etc/UTC]", comments = "Generator version: 7.8.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2026-08-18T08:03:44.110542425Z[Etc/UTC]", comments = "Generator version: 7.8.0")
 public class Toll {
   public static final String JSON_PROPERTY_COSTS = "costs";
   private TollCosts costs;

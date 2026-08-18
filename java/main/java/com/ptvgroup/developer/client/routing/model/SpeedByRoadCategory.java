@@ -36,7 +36,7 @@ import com.ptvgroup.developer.client.routing.ApiClient;
   SpeedByRoadCategory.JSON_PROPERTY_MINIMUM_SPEED,
   SpeedByRoadCategory.JSON_PROPERTY_MAXIMUM_SPEED
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2026-08-11T11:04:17.262362829Z[Etc/UTC]", comments = "Generator version: 7.8.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2026-08-18T08:03:44.110542425Z[Etc/UTC]", comments = "Generator version: 7.8.0")
 public class SpeedByRoadCategory {
   public static final String JSON_PROPERTY_MINIMUM_SPEED = "minimumSpeed";
   private Integer minimumSpeed;
